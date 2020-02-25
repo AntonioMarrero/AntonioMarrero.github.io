@@ -1,0 +1,21 @@
+body { margin: 0px;}
+.parallax {
+    /* The image used */
+    /* background-image: url("images/programming.jpg"); */
+  
+    /* Set a specific height */
+    /* height: 1090px;
+
+    margin-top: 0px; */
+  
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+
+  h1 {
+    margin-top: 0px;
+    color: white;
+  }
