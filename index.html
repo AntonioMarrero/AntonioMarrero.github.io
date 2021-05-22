@@ -9,35 +9,37 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./Styles/style.css">
-  <link rel="stylesheet" type="text/css" href="./Styles/home.css">
     <!-- Title -->
   <title>Antonio Marrero Bonilla</title>
 </head>
 
 <body>
   <!-- *********************** NAVIGATION BAR ******************************************* -->
-  <nav class="navbar sticky-top navbar-dark bg-dark">
-    <a class="navbar-brand">Antonio Marrero</a>
+  <nav class="navbar sticky-top navbar-dark bg-dark" id="main-navbar">
+    <a class="navbar-brand">Antonio Marrero Bonilla</a>
     <!-- Navbar content -->
     <div class="justify-content-end">
-      <a class="btn btn-light active" href="index.html" role="button"> Home</a>
-      <a class="btn btn-light" href="portfolio.html" role="button"> Portfolio</a>
-      <a class="btn btn-light" href="projects.html" role="button"> Projects</a>
+      <a class="btn btn-light active" href="#scrollspyAboutMe" role="button">About</a>
+      <a class="btn btn-light" href="#scrollspyExperice" role="button">Experiece</a>
+      <a class="btn btn-light" href="#scrollspyProjects" role="button">Projects</a>
     </div>
   </nav>
 
   <!-- *********************** PAGE CONTENT ********************************************* -->
-  <div class="container shadow-lg">
+  <div class="container" id="main-container" data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="0" tableindex="0">
     <div class="row pt-5 justify-content-center">
       <div class="col-md-auto">
         <div class="text-center">
-          <img src="./images/Tony_picture.jpg" style="width: 400px; height: 400px;"
-            class="rounded-circle" alt="Tonys Picture">
+          <img src="./images/Tony_picture.jpg" style="width: 300px; height: 300px;"
+          class="rounded-circle" alt="Tonys Picture">
         </div>
       </div>
     </div>
-    <div class="row mt-5">
+
+    <!-- ABOUT ME COLUMN -->
+    <div class="row mt-5" id="aboutMeCol">
       <div class="col">
+        <h2 id="scrollspyAboutMe">About Me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
           dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
           Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
@@ -60,6 +62,21 @@
           dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet
           pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt
           malesuada tellus. Ut ultrices ultrices enim. </p>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE COLUMN -->
+    <div class="row mt-5" id="experienceCol">
+      <div class="col">
+        <h2 id="scrollspyExperice">Experience</h2>
+
+      </div>
+    </div>
+
+    <!-- PROJECTS COLUMN -->
+    <div class="row mt-5" id="projectsCol">
+      <div class="col">
+        <h2 id="scrollspyProjects">Projects</h2>
       </div>
     </div>
   </div>

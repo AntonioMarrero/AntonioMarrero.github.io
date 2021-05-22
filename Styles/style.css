@@ -1,3 +1,15 @@
 .justify-content-end {
     justify-content: space-between;
- }
+}
+
+ p {
+    font-size: 20px; 
+}
+ 
+.btn {
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
