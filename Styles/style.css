@@ -1,3 +1,8 @@
+body {
+    position: relative;
+    margin-top: 50px; 
+}
+
 .justify-content-end {
     justify-content: space-between;
 }
@@ -13,4 +18,14 @@
 
 .navbar-brand {
     font-weight: bolder;
+}
+
+.navbar .nav-link.active {
+    background-color: lightblue;
+    color: black;
+  }
+
+.navbar .nav-link {
+    font-weight: bolder;
+    color: white;
 }

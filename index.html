@@ -6,28 +6,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./Styles/style.css">
     <!-- Title -->
   <title>Antonio Marrero Bonilla</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="50" tableindex="0">
   <!-- *********************** NAVIGATION BAR ******************************************* -->
-  <nav class="navbar sticky-top navbar-dark bg-dark" id="main-navbar">
+  <!-- <nav class="navbar sticky-top navbar-dark bg-dark" id="main-navbar"> -->
+    <nav class="navbar navbar-dark bg-dark fixed-top" id="main-navbar">
     <a class="navbar-brand">Antonio Marrero Bonilla</a>
     <!-- Navbar content -->
-    <div class="justify-content-end">
-      <a class="btn btn-light active" href="#scrollspyAboutMe" role="button">About</a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyAboutMe">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspySkills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyExperice">Experiece</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyProjects">Projects</a>
+      </li>
+    </ul>
+    <!-- <div class="justify-content-end">
+      <a class="btn btn-light" href="#scrollspyAboutMe" role="button">About</a>
       <a class="btn btn-light" href="#scrollspyExperice" role="button">Experiece</a>
       <a class="btn btn-light" href="#scrollspyProjects" role="button">Projects</a>
-    </div>
+    </div> -->
   </nav>
 
   <!-- *********************** PAGE CONTENT ********************************************* -->
-  <div class="container" id="main-container" data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="0" tableindex="0">
-    <div class="row pt-5 justify-content-center">
+  <div class="container" id="main-container" >
+    <div class="row pt-5 justify-content-center" id="scrollspyAboutMe">
       <div class="col-md-auto">
         <div class="text-center">
           <img src="./images/Tony_picture.jpg" style="width: 300px; height: 300px;"
@@ -39,7 +53,8 @@
     <!-- ABOUT ME COLUMN -->
     <div class="row mt-5" id="aboutMeCol">
       <div class="col">
-        <h2 id="scrollspyAboutMe">About Me</h2>
+        <h2>About Me</h2>
+        <hr class="solid">
         <p>Hello my name is Antonio Marrero Bonilla but you can call me Tony. I was born and raised in Humacao, Puerto Rico up to when I turned 24 years old. At that time, I decided to enlist in the military and got recruited into the Army.</p>
 
         <p>I worked as a mechanic in the Army quickly raising up to a Non-Commisioned Officer (NCO) where I spend over 12 years in charge of maintenance sections and as platoon sergeant taking care of my troops. During my NCO time I spent time working in different roles at the same time. Some of these roles included; Instructor, Security NCO, Safety NCO, Platoon Sergeant, Key Custodian, Physical Training Instructor, Standard Operating Procedure (SOP) writer among other additional duties required of me during that time. My last 2 years in the Army I worked as a Civil Affairs Operator in Fort Bragg, Norht Carolina. During that time I learned French as a language, I worked as a team leader, worked gathering regional intelligence, diplomatic approaches to help sustain local and national entities, also work with emergency service, local and national law enforcements to provide laison between the military and goverment and non goverment agencies. As some people say leaders are born or made in the frontlines, well I was made in the frontlines. I lead by example and put my foot in the mud first. In total I spent around 14 years in the Army before I suffered some injuries that required me to do a career change so I retired from the Army in October 2015.</p>
@@ -54,11 +69,26 @@
       </div>
     </div>
 
+    <!-- SKILLS COLUMN -->
+    <div class="row mt-5" id="skillsCol">
+      <div class="col">
+        <h2 id="scrollspySkills">Skills</h2>
+        <hr class="solid">
+      </div>
+    </div>
+
     <!-- EXPERIENCE COLUMN -->
     <div class="row mt-5" id="experienceCol">
       <div class="col">
         <h2 id="scrollspyExperice">Experience</h2>
+        <hr class="solid">
+          <p>
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+          </p>
 
+          <p>
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+          </p>
       </div>
     </div>
 
@@ -66,21 +96,14 @@
     <div class="row mt-5" id="projectsCol">
       <div class="col">
         <h2 id="scrollspyProjects">Projects</h2>
+        <hr class="solid">
+        <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
       </div>
     </div>
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
