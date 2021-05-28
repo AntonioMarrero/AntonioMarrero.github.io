@@ -29,3 +29,15 @@ body {
     font-weight: bolder;
     color: white;
 }
+
+#technicalSkills {
+    columns: 2;
+}
+
+#technicalSkills, #generalSkills {
+    font-size: 18px;
+}
+
+.col {
+    padding-bottom: 100px;
+}
