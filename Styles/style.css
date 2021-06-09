@@ -54,3 +54,6 @@ body {
 #responsabilities ul li {
     list-style-type: circle;
 }
+#footerContainer {
+    justify-content: center;
+}

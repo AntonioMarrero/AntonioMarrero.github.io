@@ -20,8 +20,8 @@
     <!-- Navbar content -->
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="#scrollspyAboutMe">About</a>
-      </li>ws
+        <a class="nav-link" href="#scrollspySummary">Summary</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#scrollspySkills">Skills</a>
       </li>
@@ -29,8 +29,11 @@
         <a class="nav-link" href="#scrollspyExperice">Experiece</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#scrollspyProjects">Projects</a>
+        <a class="nav-link" href="#scrollspyAboutMe">About</a>
       </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#scrollspyProjects">Projects</a>
+      </li> -->
     </ul>
     <!-- <div class="justify-content-end">
       <a class="btn btn-light" href="#scrollspyAboutMe" role="button">About</a>
@@ -41,33 +44,34 @@
 
   <!-- *********************** PAGE CONTENT ********************************************* -->
   <div class="container" id="main-container" >
-    <div class="row pt-5 justify-content-center" id="scrollspyAboutMe">
+    <div class="row pt-5 justify-content-center">
       <div class="col-md-auto">
         <div class="text-center">
-          <img src="./images/Tony_picture.jpg" style="width: 300px; height: 300px;"
+          <img src="./images/Tony_picture.jpg" style="width: 350px; height: 300px;"
           class="rounded-circle" alt="Tonys Picture">
         </div>
       </div>
     </div>
 
-    <!-- ABOUT ME COLUMN -->
-    <div class="row mt-5" id="aboutMeCol">
+    <!-- SUMMARY -->
+    <div class="row mt-5" id="summaryCol">
       <div class="col">
-        <h2>About Me</h2>
+        <h2 id="scrollspySummary">Summary</h2>
         <hr class="solid">
-        <p>Hello my name is Antonio Marrero Bonilla but you can call me Tony. I was born and raised in Humacao, Puerto Rico up to when I turned 24 years old. At that time, I decided to enlist in the military and got recruited into the Army.</p>
-
-        <p>I worked as a mechanic in the Army quickly raising up to a Non-Commisioned Officer (NCO) where I spend over 12 years in charge of maintenance sections and as platoon sergeant taking care of my troops. During my NCO time I spent time working in different roles at the same time. Some of these roles included; Instructor, Security NCO, Safety NCO, Platoon Sergeant, Key Custodian, Physical Training Instructor, Standard Operating Procedure (SOP) writer among other additional duties required of me during that time. My last 2 years in the Army I worked as a Civil Affairs Operator in Fort Bragg, Norht Carolina. During that time I learned French as a language, I worked as a team leader, worked gathering regional intelligence, diplomatic approaches to help sustain local and national entities, also work with emergency service, local and national law enforcements to provide laison between the military and goverment and non goverment agencies. As some people say leaders are born or made in the frontlines, well I was made in the frontlines. I lead by example and put my foot in the mud first. In total I spent around 14 years in the Army before I suffered some injuries that required me to do a career change so I retired from the Army in October 2015.</p>
-
-        <p>Upon my retirement from the military I spend my next 2 years finishing my bachelors degree in Computer Science from the DeVry Universtiy where I graduated October 2017 with high honors. I decided to start working freelance at that time but wasn't providing fruitful results as a beginner in the industry of Software Devlopment. So in 2018 I decided to join Revature to seek out training and get a job as a software developer.</p>
-
-        <p>My journey as a software developer has gotten a lot of moving pieces and work with different technologies. As one of my instructors once told me that every project its different and most likely you will be dancing between technologies. That was very true statement, therefore the training I got was not to show me a specific technology like JAVA but to train me to self teach me a tehcnology if I had to do so for future projects no matter for which buisness I would work in the future.</p>
-
-        <p>During the peroid of 2018 to 2020 I have worked with different companies such as Revature, UST Global and Anthem (Blue Cross Blue Shield). Some of the technologies and methodologies I used during this time were; JAVA 8, Spring Boot, Angular, Angular Material, MongoDB, JavaScript, ExpressJS, NodeJS, Tableu Desktop and applied this technologies to Microservices models in some projects. Other projects were simpler but rebust to meet business requirements only using a few of the technologies mentioned above.</p>
-
-        <p>In 2020 I had to put my career on hold to take care of medical issues that were caused during my time in the military and was not working for me to work in an office environment due to the number of appointments and some of the symptoms were very scrutiating. Till this present I have being working on simple web app projects in the realm of game development using C++, Unreal Engine 4 and web apps using Angular, Angular Material with a new approach of serverless back-ends such as Cloud Firestore. To read more of projects that have being completed or current projects in progress scroll below to the projects section.</p>
+        <ul id="summaryList">
+          <li>Full stack developer with knowledge in Java, Angular 5, HTML, CSS, Angular Material, JavaScript, MongoDB and SQL</li>
+          <li>Developed UI using Angular 5 and Angular Material for different applications of a tool suite for Anthem Blue Cross / Blue Shield</li>
+          <li>Developed JAVA 8 services and models for a Calorie and Nutrition Application for Revature </li>
+          <li>Developed back-end using Java to support Angular 5 UI’s for different applications of a tool suite for Anthem Blue Cross / Blue Shield</li>
+          <li>Developed Microservices ecosystem using SQL, Java 8, Spring Boot 2, Kafka, Angular 5, CSS3 for Revature to replace an older application for employment recruiting</li>
+          <li>Developed monolithic applications using MongoDB, Java 8, Angular 5, Angular Material for RxSmart suite an Anthem tool suite for judicating and manage healthcare claims and processes</li>
+          <li>Developed processing engine using JavaScript, Java 8, Angular 5, Tableau to process claims and produce data analytics and automate test, financial and data analytics processes for a new Pharmacy Benefits Management for Anthem</li>
+          <li>Automated processes using VBScript to prepare spreadsheets to be utilized by an automated data analysis engine and automatically format spreadsheet to be filled with data from the analysis</li>
+          <li>Implemented Google Cloud Firestore and Firebase serverless databases into small applications use for desktop apps and mobile apps</li>
+        </ul>
       </div>
     </div>
+
 
     <!-- SKILLS COLUMN -->
     <div class="row mt-5" id="skillsCol">
@@ -224,15 +228,49 @@
       </div>
     </div>
 
+    <!-- ABOUT ME COLUMN -->
+    <div class="row mt-5" id="aboutMeCol">
+      <div class="col">
+        <h2 id="scrollspyAboutMe">About Me</h2>
+        <hr class="solid">
+        <p>Hello my name is Antonio Marrero Bonilla but you can call me Tony. I was born and raised in Humacao, Puerto Rico up to when I turned 24 years old. At that time, I decided to enlist in the military and got recruited into the Army.</p>
+
+        <p>I worked as a mechanic in the Army quickly raising up to a Non-Commisioned Officer (NCO) where I spend over 12 years in charge of maintenance sections and as platoon sergeant taking care of my troops. During my NCO time I spent time working in different roles at the same time. Some of these roles included; Instructor, Security NCO, Safety NCO, Platoon Sergeant, Key Custodian, Physical Training Instructor, Standard Operating Procedure (SOP) writer among other additional duties required of me during that time. My last 2 years in the Army I worked as a Civil Affairs Operator in Fort Bragg, Norht Carolina. During that time I learned French as a language, I worked as a team leader, worked gathering regional intelligence, diplomatic approaches to help sustain local and national entities, also work with emergency service, local and national law enforcements to provide laison between the military and goverment and non goverment agencies. As some people say leaders are born or made in the frontlines, well I was made in the frontlines. I lead by example and put my foot in the mud first. In total I spent around 14 years in the Army before I suffered some injuries that required me to do a career change so I retired from the Army in October 2015.</p>
+
+        <p>Upon my retirement from the military I spend my next 2 years finishing my bachelors degree in Computer Science from the DeVry Universtiy where I graduated October 2017 with high honors. I decided to start working freelance at that time but wasn't providing fruitful results as a beginner in the industry of Software Devlopment. So in 2018 I decided to join Revature to seek out training and get a job as a software developer.</p>
+
+        <p>My journey as a software developer has gotten a lot of moving pieces and work with different technologies. As one of my instructors once told me that every project its different and most likely you will be dancing between technologies. That was very true statement, therefore the training I got was not to show me a specific technology like JAVA but to train me to self teach me a tehcnology if I had to do so for future projects no matter for which buisness I would work in the future.</p>
+
+        <p>During the peroid of 2018 to 2020 I have worked with different companies such as Revature, UST Global and Anthem (Blue Cross Blue Shield). Some of the technologies and methodologies I used during this time were; JAVA 8, Spring Boot, Angular, Angular Material, MongoDB, JavaScript, ExpressJS, NodeJS, Tableu Desktop and applied this technologies to Microservices models in some projects. Other projects were simpler but rebust to meet business requirements only using a few of the technologies mentioned above.</p>
+
+        <p>In 2020 I had to put my career on hold to take care of medical issues that were caused during my time in the military and was not working for me to work in an office environment due to the number of appointments and some of the symptoms were very scrutiating. Till this present I have being working on simple web app projects in the realm of game development using C++, Unreal Engine 4 and web apps using Angular, Angular Material with a new approach of serverless back-ends such as Cloud Firestore. To read more of projects that have being completed or current projects in progress scroll below to the projects section.</p>
+      </div>
+    </div>
+
+
+
     <!-- PROJECTS COLUMN -->
-    <div class="row mt-5" id="projectsCol">
+    <!-- <div class="row mt-5" id="projectsCol">
       <div class="col">
         <h2 id="scrollspyProjects">Projects</h2>
         <hr class="solid">
         <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
       </div>
-    </div>
+    </div> -->
   </div>
+  <footer class="footer mt-auto text-md-center py-3 bg-dark">
+    <div class="container" id="footerContainer">
+      <div class="row">      
+        <span class="text-muted">Created By Antonio Marrero Bonilla</span>
+      </div>
+      <div class="row">
+        <span class="text-muted">Last Updated 06/20201</span>
+      </div>
+      <div class="row">
+        <span class="text-muted">For Business Inquiries Contact Via Email: antonio.marrerobonilla@gmail.com</span>
+      </div>
+    </div>
+  </footer>
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
